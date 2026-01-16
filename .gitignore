@@ -1,0 +1,12 @@
+# Project specific ignores
+pyvenv.cfg
+.venv/
+.venv*/
+__pycache__/
+.idea/
+lib/
+CACHEDIR/
+tutorials/
+DataSpell_Report.md
+hello_world
+
