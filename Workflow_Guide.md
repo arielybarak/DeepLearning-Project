@@ -35,7 +35,7 @@ To visualize training runs from local scripts or Edge Impulse exports.
 3. **Launch Dashboard:** `tensorboard --logdir logs/fit`
 4. **Cloud Sharing (Optional):** `tensorboard dev upload --logdir logs/fit`
 
-### C. DataSpell / IDE (Project Hub)
+### C. PyCharm / IDE (Project Hub)
 1. **Env Setup:** Use `Conda` or `venv` to isolate `librosa`, `tensorflow`, and `numpy`.
 2. **Notebooks:** Run existing tutorials in the `tutorials/` folder to prototype pre-processing logic before moving it to Edge Impulse.
 
@@ -44,3 +44,7 @@ To visualize training runs from local scripts or Edge Impulse exports.
 ## 3. Implementation Responsibilities
 *   **Local:** Data synthesis logic, final comparative reports, and custom Knowledge Distillation scripts.
 *   **Cloud:** DSP block configuration, GPU-accelerated model training, and hardware resource estimation (MACs/RAM).
+
+
+- Let's start from training of one CNN layer => 2 layers => 1 RNN => etc... 
+- to develop intuition, let's decide with gpt on a sequence of basic "shelf models" to run first.
