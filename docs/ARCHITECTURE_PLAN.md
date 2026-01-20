@@ -22,16 +22,19 @@
 
 ## 2. Model Architectures
 
-*   **Type A: Custom Backbones (Built from Scratch)**
+*   **Type A: Custom Backbones (Built from Scratch/Ready-to-use)** 
     *   **CNN/RNN Variants:** CRNN, Standard 2D-CNN, Depthwise Separable CNN (MobileNet-style), 1D-Conv, LSTM vs. GRU (Parameter efficiency), TCN.
 
 *   **Type B: Pre-Trained Backbones**
     *   **Candidates:** YAMNet, VGGish, OpenL3 (Small versions).
     *   **Role:** Primarily generally-trained feature extractors.
 
-*   **Type C: Context-Aware / Adaptive Architectures**
+*   **Type C: Context-Aware / Adaptive Architectures** (two sub-models)
     *   *Concept:* **One-Shot Calibration** step to learn "Room Traits" (Noise floor / Reverb) -> Feed to Main Model.
     *   *Constraint Focus:* Calibration model adds to storage size (Flash), but NOT to runtime latency/battery.
+
+*   **Type D: Autoencodr & Decoder** (Optional)
+    *   Hardcore development, use pre-trained models
 
 ## 3. Training Paradigms
 

@@ -23,6 +23,13 @@ Our approach involves:
 2. Freezing early layers and fine-tuning the final layers for the bathroom acoustic environment.
 3. Adapting these systems for deployment on constrained edge hardware (ESP32-S3).
 
+## Project Structure
+- **`docs/`**: Detailed documentation including planning and reports.
+- **`src/`**: Python source code and scripts.
+- **`tutorials/`**: Jupyter notebooks for experiments.
+- **`data/`**: Storage for raw and processed datasets (not tracked by git).
+- **`models/`**: Saved model artifacts (not tracked by git).
+
 ## Resources
 - **Edge Impulse:** MLOps platform for DSP and TinyML optimization.
 - **Hugging Face:** Platform for accessing state-of-the-art pre-trained models.

@@ -1,12 +1,22 @@
-# Project specific ignores
-pyvenv.cfg
+# Environments
 .venv/
 .venv*/
-__pycache__/
-.idea/
+bin/
 lib/
-CACHEDIR/
-tutorials/
-DataSpell_Report.md
-hello_world
+pyvenv.cfg
 
+# IDE & System
+.idea/
+__pycache__/
+.DS_Store
+CACHEDIR/
+CACHEDIR.TAG
+
+# Data Science Project Structure
+data/
+models/
+tutorials/
+
+# Ignored Source/Docs (Moved from root)
+src/hello_world.py
+docs/DataSpell_Report.md
