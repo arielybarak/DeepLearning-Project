@@ -13,9 +13,12 @@ CACHEDIR/
 CACHEDIR.TAG
 
 # Data Science Project Structure
-data/
-models/
-tutorials/
+data/*
+!data/README.md
+models/*
+!models/README.md
+tutorials/*
+!tutorials/README.md
 
 # Ignored Source/Docs (Moved from root)
 src/hello_world.py
